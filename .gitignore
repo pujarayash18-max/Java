@@ -1,3 +1,11 @@
-*.class
-*.ctxt
-doc/
+# Ignore everything
+*
+
+# Allow only Java files
+!*.java
+
+# Allow folders (so Git can see files inside)
+!*/
+
+# Keep gitignore itself
+!.gitignore
